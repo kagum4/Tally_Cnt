@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="@string/cnt"
+        android:layout_width="match_parent"
+        android:layout_height="254.5dp"
+        android:id="@+id/counterText"
+        android:gravity="center"
+        android:textSize="@android:dimen/app_icon_size"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageButton
+            android:src="@drawable/decrement"
+            android:layout_width="194.0dp"
+            android:layout_height="233.0dp"
+            android:scaleType="centerInside"
+            android:layout_weight="1"
+            android:background="@null"
+            android:id="@+id/imageButton1"
+            android:layout_marginTop="0.0dp"
+            android:layout_marginRight="0.0dp" />
+        <ImageButton
+            android:src="@drawable/increment"
+            android:layout_width="180.0dp"
+            android:layout_height="match_parent"
+            android:scaleType="centerInside"
+            android:layout_weight="1"
+            android:background="@null"
+            android:id="@+id/imageButton2"
+            android:layout_marginTop="0.0dp" />
+    </LinearLayout>
+</LinearLayout>
